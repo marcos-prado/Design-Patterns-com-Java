@@ -2,15 +2,16 @@ package one.digitalinovation.gof.service;
 
 import one.digitalinovation.gof.model.Cliente;
 
-public class ClienteService {
-    Iterable<Cliente> buscarTodos();
+public interface ClienteService {
 
-    Cliente buscarPorId(Long id);
+	Iterable<Cliente> buscarTodos();
 
-    void cadastrar(Cliente cliente);
+	Cliente buscarPorId(Long id);
 
-    void atualizar(Long id, Cliente cliente);
+	void inserir(Cliente cliente);
 
-    void deletar(Long id);
+	void atualizar(Long id, Cliente cliente);
+
+	void deletar(Long id);
 
 }
