@@ -1,7 +1,6 @@
 package one.digitalinovation.gof;
 
-@SpringBootTest
-class LabPadroesProjetoSpringApplicationTests {
+public class LabPadroesProjetoSpringApplication {
 
 	@Test
 	void contextLoads() {
